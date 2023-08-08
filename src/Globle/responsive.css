@@ -1,0 +1,123 @@
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+  /* CSS rules for extra small devices */
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .home-pro-tilet p {
+    margin: 0;
+    padding: 0;
+  }
+  .home-pro-tilet :nth-child(1) {
+    font-weight: bolder;
+    font-size: 0.8rem;
+  }
+  .home-pro-tilet :nth-child(2) {
+    color: #3f9243;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.8rem;
+  }
+  .home-pro-tilet :nth-child(3) {
+    color: gray;
+    font-size: 0.6rem;
+  }
+  
+  .home-prod-image img {
+    height: 90%;
+  }
+  .home-producr-first img {
+    width: 20vw;
+  }
+
+  .home-fist:nth-child(1) {
+    font-size: 1rem;
+  }
+  .home-fist :nth-child(2) {
+    font-size: 0.7rem;
+    color: white;
+  }
+  .home-prod-image {
+    line-height: 1rem;
+  }
+
+  .list-container {
+    left: 0;
+    width: 100vw;
+  }
+
+  
+  .image-zoom-container img {
+    transition: transform 0.3s;
+   
+  }
+
+  .image-zoom-container img {
+    transform: scale(0.8);
+   
+  }
+
+.image-zoom-container:hover img {
+    transform: scale(0.9);
+ 
+  }
+  .banner{
+    width: 30%;
+  }
+  .banner-card-img{
+    width: 50%;
+    margin-left: -10px;
+  }
+  /* .product-card{
+    width: 50%;
+  } */
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* CSS rules for small devices */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* CSS rules for medium devices */
+  .banner{
+    width: 30%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* CSS rules for large devices */
+  .carousel-item img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra large devices */
+}
+
+/* Landscape orientation */
+@media (orientation: landscape) {
+  /* CSS rules for landscape orientation */
+}
+
+/* Portrait orientation */
+@media (orientation: portrait) {
+  /* CSS rules for portrait orientation */
+}
+
+/* Retina displays (high-density screens) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* CSS rules for retina displays */
+}
+
+/* Print styles */
+@media print {
+  /* CSS rules for print styles */
+}
